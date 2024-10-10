@@ -1,0 +1,39 @@
+#profile-image {
+  width:150px;
+  height:150px;
+  object-fit:cover;
+  border-radius:50%;
+}
+
+.body {
+  color: rgb(12, 12, 12);
+  font-family: Tahoma, Verdana, Segoe, sans-serif;
+  padding: 10px;
+  font-size: larger;
+}
+.container-profile-page {
+  background-color: none;
+  display: flex;
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+}
+.fixed {
+  width: 100px;
+}
+.flex-item {
+  flex-grow: 5;
+}
+
+.image-cropper {
+  width: 150px;
+  height: 150px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+/* #item-image {
+  height: 200px;
+  width: 200px;
+} */

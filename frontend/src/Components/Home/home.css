@@ -1,0 +1,26 @@
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: #212529;
+}
+
+.content-container {
+  min-height: calc(100vh - 34px);
+}
+.footer--pin {
+  position: relative;
+  left: 0;
+  bottom: 0;
+}
+
+.MuiSlider-root {
+  color: #20b2aa;
+}
+
+.scaled {
+  height: 80px;
+  width: 90px;
+  transform: scale(0.8); /* Equal to scaleX(2) scaleY(0.5) */
+  transform-origin: top;
+}
